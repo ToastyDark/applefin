@@ -1,10 +1,12 @@
-/* home test */
-
-.backgroundContainer {
-  background-color: #00ff26 !important;
+/* Set Multiple Backgrouns */
+body {
+  background-color: #101010 !important;
 }
 
-
-.mainDrawer {
-  background-color: #08f800 !important;
+/* edit transparency*/
+.backgroundContainer,
+.mainDrawer,
+.layout-desktop,
+.layout-mobile {
+  background: transparent !important;
 }
